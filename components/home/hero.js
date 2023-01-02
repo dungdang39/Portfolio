@@ -1,11 +1,14 @@
 import Animation from "./animation";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <>
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font lg:text-4xl sm:text-3xl text-2xl mb-4 font-medium text-gray-900 break-keep">
-          안녕하세요 프론트엔드 개발자
+          안녕하세요
+          <br className="hidden lg:inline-block" />
+          프론트엔드 개발자
           <br className="hidden lg:inline-block" />
           신태호입니다.
         </h1>
@@ -18,9 +21,12 @@ export default function Hero() {
           그림자는 힘있다. 꽃이 가진 그것은 있는가?
         </p>
         <div className="flex justify-center">
-          <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <Link
+            href="/projects"
+            className="inline-flex text-white bg-indigo-500/90 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg dark:text-white"
+          >
             프로젝트 보러가기
-          </button>
+          </Link>
         </div>
       </div>
       <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6">

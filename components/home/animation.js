@@ -4,5 +4,7 @@ import Lottie from "react-lottie-player";
 import lottieJson from "/public/animation.json";
 
 export default function Animation() {
-  return <Lottie loop animationData={lottieJson} play />;
+  return (
+    <Lottie className="dark:opacity-95" loop animationData={lottieJson} play />
+  );
 }
