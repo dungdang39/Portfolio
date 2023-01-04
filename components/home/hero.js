@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex justify-center">
           <Link
             href="/projects"
-            className="inline-flex text-white bg-indigo-500/90 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-500 hover:text-white rounded text-lg dark:text-white"
+            className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 hover:text-white rounded text-lg dark:text-white"
           >
             프로젝트 보러가기
           </Link>
