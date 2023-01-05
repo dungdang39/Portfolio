@@ -1,11 +1,18 @@
 import { useTheme } from "next-themes";
+import { useEffect } from "react";
 
 export default function DarkModeToggleButton() {
   const { theme, setTheme } = useTheme();
+  useEffect(() => {
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme === null) {
+      setTheme("dark");
+    }
+  }, []);
   return (
     <>
       <button
-        className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 dark:bg-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+        className="inline-flex items-center border-0 shadow shadow-gray-400/80 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 dark:bg-zinc-700 dark:text-slate-300 dark:hover:bg-zinc-600 dark:shadow-black"
         type="button"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >

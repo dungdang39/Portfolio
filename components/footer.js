@@ -10,17 +10,17 @@ export default function Footer() {
               href="/"
               className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
             >
-              <span className="text-xl font-semibold">신태호 포트폴리오</span>
+              <span className="text-xl font-semibold">HO TAE</span>
             </Link>
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-              © 2020 Tailblocks —
+              © 2022 — Website created using Next.js
               <a
                 href="https://twitter.com/knyttneve"
                 rel="noopener noreferrer"
-                className="text-gray-600 ml-1"
+                className="text-gray-600 ml-3 dark:text-gray-500"
                 target="_blank"
               >
-                @knyttneve
+                @HoTae
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

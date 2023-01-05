@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Layout from "../components/layout";
-import { TOKEN, DATABASE_ID } from "../config";
-import ProjectItem from "../components/projects/project-item";
+import Layout from "../../components/layout";
+import { TOKEN, DATABASE_ID } from "../../config";
+import ProjectItem from "../../components/projects/project-item";
 
 export default function Projects({ projects }) {
   return (
@@ -15,7 +15,7 @@ export default function Projects({ projects }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="container mx-auto px-8 pt-5 pb-2 mt-20 text-lg text-right font-medium 2xl:w-4/5 sm:text-xl">
+      <h1 className="container mx-auto p-5 mt-20 text-lg text-right font-medium 2xl:w-4/5 sm:text-xl">
         총 프로젝트 :
         <span className="pl-4 text-blue-500 font-bold">
           {projects.results.length}
@@ -23,7 +23,7 @@ export default function Projects({ projects }) {
         개
       </h1>
 
-      <div className="container mx-auto px-4 grid grid-cols-1 2xl:w-4/5 md:grid-cols-2 pb-10 mb-20 gap-4 sm:w-full">
+      <div className="container mx-auto px-4 grid grid-cols-1 2xl:w-4/5 md:grid-cols-2 pb-10 mb-20 gap-8 sm:w-full">
         {projects.results.map((aProject) => (
           <ProjectItem key={aProject.id} data={aProject} />
         ))}
