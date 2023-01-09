@@ -69,6 +69,8 @@ export default function Work() {
                 <div class="bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div class="react p-3 w-12 h-12 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
                     <svg
+                      width="32px"
+                      height="32px"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="-11.5 -10.23174 23 20.46348"
                     >
