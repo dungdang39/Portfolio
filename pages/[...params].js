@@ -99,14 +99,16 @@ export default function ProjectDetail({ preData }) {
               </a>
             )}
           </div>
-          <p className="break-keep mb-10">·</p>
-          <p className="my-1 break-keep mb-4 text-zinc-600 dark:text-white">
-            작업부분
-          </p>
           {detail && (
-            <p className="break-all my-2 w-full m-auto p-10 mb-10 border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50">
-              {detail}
-            </p>
+            <>
+              <p className="break-keep mb-10">·</p>
+              <p className="my-1 break-keep mb-4 text-zinc-600 dark:text-white">
+                작업부분
+              </p>
+              <p className="break-all my-2 w-full m-auto p-10 mb-10 border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50">
+                {detail}
+              </p>
+            </>
           )}
           <p className="break-keep mb-10">·</p>
           <p className="break-all my-2 w-full m-auto p-10 mb-10 border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50">

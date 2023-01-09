@@ -12,7 +12,7 @@ export default function ProjectItem({ data }) {
     tags: data.properties.Tag.multi_select,
     start: data.properties.WorkPeriod.date.start,
     end: data.properties.WorkPeriod.date.end,
-    detail: data.properties.WorkDetail.rich_text[0].plain_text,
+    detail: data.properties.WorkDetail.rich_text[0]?.plain_text,
     id: data.properties.idx.rich_text[0].plain_text,
     link: data.properties.Link.url,
   };
