@@ -73,6 +73,7 @@ export default function Intro() {
                 <a
                   className="ml-4 underline underline-offset-1"
                   href="https://github.com/dungdang39"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   https://github.com/dungdang39

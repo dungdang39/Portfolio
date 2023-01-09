@@ -79,6 +79,7 @@ export default function ProjectDetail({ preData }) {
               <a
                 className={`${link ? "w-2/4" : "w-full"} link_btn`}
                 href={github}
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 깃허브 바로가기
@@ -88,13 +89,19 @@ export default function ProjectDetail({ preData }) {
               <a
                 className={`${link ? "w-2/4" : "w-full"} link_btn`}
                 href={youtube}
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 시연영상 보러가기
               </a>
             )}
             {link && (
-              <a className="link_btn w-2/4" href={link} target="_blank">
+              <a
+                className="link_btn w-2/4"
+                href={link}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 링크 바로가기
               </a>
             )}
