@@ -1,6 +1,7 @@
 import Image from "next/legacy/image";
-import Layout from "../../components/layout";
+import Layout from "../components/layout";
 import Head from "next/head";
+import Header from "../components/header";
 
 export default function ProjectDetail({ preData }) {
   const parsingData = JSON.parse(preData);
@@ -49,8 +50,9 @@ export default function ProjectDetail({ preData }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="min-h-screen px-6 xl:px-0 max-w-screen-lg mx-auto w-full items-center justify-center text-gray-600 body-font text-center">
-        <div className="w-full mx-auto mt-20 h-96 relative rounded-xl overflow-hidden shadow-md shadow-zinc-400 dark:shadow-zinc-900">
+      <Header />
+      <section className="min-h-screen px-6 pt-40 xl:px-0 max-w-screen-lg mx-auto w-full items-center justify-center text-gray-600 body-font text-center">
+        <div className="w-full mx-auto h-96 relative rounded-xl overflow-hidden shadow-md shadow-zinc-400 dark:shadow-zinc-900">
           <Image
             alt="cover image"
             src={imgSrc}
@@ -65,7 +67,7 @@ export default function ProjectDetail({ preData }) {
           <div className="flex items-center justify-center mb-20 flex-wrap">
             {tags.map((aTag) => (
               <h1
-                className={["badge", `badge_${aTag.color}`].join(" ")}
+                className={["badge", "large", `badge_${aTag.color}`].join(" ")}
                 key={aTag.id}
               >
                 {aTag.name}

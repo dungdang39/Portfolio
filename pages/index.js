@@ -1,8 +1,14 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import Hero from "../components/home/hero";
+import Projects from "../components/projects/project-list";
+import { TOKEN, DATABASE_ID } from "../config";
+import Header from "../components/header";
+import Ending from "../components/home/ending";
+import Intro from "../components/home/intro";
+import Work from "../components/home/work";
 
-export default function Home() {
+export default function Home({ projects }) {
   return (
     <Layout>
       <Head>
@@ -14,11 +20,59 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 2xl:w-4/5 md:flex-row flex-col items-center">
-          <Hero />
+      {/* 랜딩 */}
+      <section className="min-h-screen fixed top-0 w-full text-gray-400 body-font bg-slate-300 dark:bg-zinc-900">
+        <div className="effectWrap">
+          <Header />
         </div>
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
+        <div className="scroll">
+          <div className="inner">
+            <span></span>
+          </div>
+          <p>Scroll</p>
+        </div>
+        <Hero />
+      </section>
+      <section className="flex flex-col items-center justify-center text-gray-600 body-font mt-100">
+        <Intro />
+        <Projects projects={projects} />
+        <Work />
+        <Ending />
       </section>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  const options = {
+    method: "POST",
+    headers: {
+      accept: "application/json",
+      "Notion-Version": "2022-02-22",
+      "content-type": "application/json",
+      Authorization: `Bearer ${TOKEN}`,
+    },
+    body: JSON.stringify({
+      // sorts: [
+      //   {
+      //     property: "Name",
+      //     direction: "ascending",
+      //   },
+      // ],
+      page_size: 100,
+    }),
+  };
+
+  const res = await fetch(
+    `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,
+    options
+  );
+  const projects = await res.json();
+
+  return {
+    props: { projects }, // will be passed to the page component as props
+  };
 }

@@ -20,7 +20,7 @@ export default function ProjectItem({ data }) {
   return (
     <Link
       href={{
-        pathname: `/projects/${preData.title}`,
+        pathname: `/${preData.title}`,
         query: {
           preData: JSON.stringify(preData),
         },
@@ -28,7 +28,6 @@ export default function ProjectItem({ data }) {
     >
       <div className="project-card">
         <Image
-          className="rounded-t-xl"
           alt="cover image"
           width="100%"
           height="60%"
@@ -36,10 +35,10 @@ export default function ProjectItem({ data }) {
           layout="responsive"
           objectFit="cover"
         />
-        <div className="p-6 flex flex-col">
-          <h1 className="text-2xl font-bold break-keep">{preData.title}</h1>
-          <h3 className="mt-4 text-lg break-keep">{preData.description}</h3>
-          <div className="flex items-start my-3 flex-wrap">
+        <div className="p-3 flex flex-col">
+          <h1 className="text-sm font-bold break-keep">{preData.title}</h1>
+          <h3 className="mt-2 text-xs break-keep">{preData.description}</h3>
+          <div className="flex items-start mt-3 flex-wrap">
             {preData.tags.map((aTag) => (
               <h1
                 className={["badge", `badge_${aTag.color}`].join(" ")}
