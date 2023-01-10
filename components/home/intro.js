@@ -3,26 +3,25 @@ import Image from "next/legacy/image";
 export default function Intro() {
   return (
     <div className="w-full z-20 bg-gray-200 dark:bg-zinc-800 rounded-t-xl">
-      <div className="container px-5 py-14 mx-auto flex flex-col">
+      <div data-scroll className="container px-5 py-14 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto">
           <h2 className="title">
             <span>Introduce.</span>
           </h2>
           <div className="flex flex-col sm:flex-row mt-20">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-              <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-10 h-10"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+              <div
+                data-scroll
+                className="overflow-hidden w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400"
+              >
+                <Image
+                  alt="profile image"
+                  width={90}
+                  height={90}
+                  src="/img/profile.png"
+                  layout="fixed"
+                  objectFit="cover"
+                />
               </div>
               <div className="flex flex-col items-center text-center justify-center">
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
@@ -60,7 +59,7 @@ export default function Intro() {
                 </span>
                 가 되겠습니다.
               </p>
-              <p className="flex align-center text-base sm:justify-start justify-center">
+              <p className="flex flex-wrap align-center text-base sm:justify-start justify-center">
                 <Image
                   className="dark:invert"
                   alt="github image"

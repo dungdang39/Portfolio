@@ -7,8 +7,22 @@ import Header from "../components/header";
 import Ending from "../components/home/ending";
 import Intro from "../components/home/intro";
 import Work from "../components/home/work";
+import ScrollOut from "scroll-out";
+import { useEffect } from "react";
 
 export default function Home({ projects }) {
+  useEffect(() => {
+    ScrollOut({
+      once: true,
+    });
+  }, []);
+
+  useEffect(() => {
+    window.onbeforeunload = function pushRefresh() {
+      window.scrollTo(0, 0);
+    };
+  }, []);
+
   return (
     <Layout>
       <Head>
@@ -28,11 +42,11 @@ export default function Home({ projects }) {
         <div className="stars"></div>
         <div className="stars2"></div>
         <div className="stars3"></div>
-        <div className="scroll">
+        <div className="scroll effectWrap">
           <div className="inner">
             <span></span>
           </div>
-          <p>Scroll</p>
+          <p className="text-gray-800 dark:text-white">Scroll</p>
         </div>
         <Hero />
       </section>

@@ -3,7 +3,7 @@ export default function Work() {
     <div className="w-full z-20 bg-gray-200 dark:bg-zinc-800">
       <div class="container px-5 py-14 mx-auto">
         <div class="flex flex-wrap w-full flex-col items-center">
-          <div className="lg:w-4/6 mx-auto w-full mb-28">
+          <div data-scroll className="lg:w-4/6 mx-auto w-full mb-28">
             <h2 className="title">
               <span>Work Experience.</span>
             </h2>
@@ -17,11 +17,11 @@ export default function Work() {
               <div className="flex flex-col sm:flex-row">
                 <div className="pb-6 sm:w-1/3 text-left sm:pr-8 sm:pb-0">
                   <p>
-                    <span className="text-lg font-bold text-gray-900 dark:text-white">
+                    <span className="text-md font-bold text-gray-900 dark:text-white">
                       Web Publisher & UI/UX Designer
                     </span>
                   </p>
-                  <p className="mt-1">2020-12-21 ~ 2022-10-30</p>
+                  <p className="mt-1 text-sm">2020-12-21 ~ 2022-10-30</p>
                 </div>
                 <ul className="text-left pt-6 sm:pt-0 sm:w-2/3 sm:pl-8 sm:border-l border-gray-300 sm:border-t-0 border-t sm:mt-0 sm:text-left dark:border-gray-600">
                   <li className="pb-1 text-gray-900 dark:text-white/50">
@@ -35,12 +35,12 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div class="lg:w-4/6 w-full mx-auto">
+          <div data-scroll class="lg:w-4/6 w-full mx-auto">
             <h2 className="title">
               <span>Skill.</span>
             </h2>
-            <div className="mt-20 grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-1 pb-10 gap-8">
-              <div class="w-full">
+            <div className="mt-20 pb-10">
+              <div class="w-full mb-6">
                 <div class="bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div class="js w-12 h-12 overflow-hidden inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <svg
@@ -60,12 +60,12 @@ export default function Work() {
                     Javscript
                   </h2>
                   <p class="leading-relaxed text-base">
-                    ES6문법에 익숙합니다.
-                    <br /> webpack, parcel 등의 번들러 사용경험이 있습니다.
+                    · ES6문법에 익숙합니다.
+                    <br />· webpack, parcel 등의 번들러 사용경험이 있습니다.
                   </p>
                 </div>
               </div>
-              <div class="w-full">
+              <div class="w-full mb-6">
                 <div class="bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div class="react p-3 w-12 h-12 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
                     <svg
@@ -87,10 +87,9 @@ export default function Work() {
                     React
                   </h2>
                   <p class="leading-relaxed text-base">
-                    React 18v의 최신버전을 문제없이 사용할 수 있습니다.
-                    <br />
-                    Reack Hook을 사용하여 기존 Class바탕의 중복된 코드를 작성할
-                    필요없이 React의 여러 기능을 사용할 수 있습니다.
+                    · React 18v의 최신버전을 문제없이 사용할 수 있습니다.
+                    <br />· Reack Hook을 사용하여 기존 Class바탕의 중복된 코드를
+                    작성할 필요없이 React의 여러 기능을 사용할 수 있습니다.
                   </p>
                 </div>
               </div>
@@ -134,12 +133,12 @@ export default function Work() {
                     HTML/CSS
                   </h2>
                   <p class="leading-relaxed text-base">
-                    웹표준과 웹접근성을 지키는 데에 늘 노력하고 있습니다.
+                    · 웹표준과 웹접근성을 지키는 데에 늘 노력하고 있습니다.
                     <br />
-                    크로스브라우징에 동등성을 부여하기위해 늘 노력하고 있습니다.
-                    <br />
-                    협업하는데에 문제가 생기지 않게끔 CSS 작성 순서를 지키고
+                    · 크로스브라우징에 동등성을 부여하기위해 늘 노력하고
                     있습니다.
+                    <br />· 협업하는데에 문제가 생기지 않게끔 CSS 작성 순서를
+                    지키고 있습니다.
                   </p>
                 </div>
               </div>

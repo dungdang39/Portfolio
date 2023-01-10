@@ -19,7 +19,9 @@
     "react-dom": "18.2.0",
     "react-lottie-player": "^1.5.4",
     "react-responsive": "^9.0.2",
-    "sharp": "^0.31.3"
+    "scroll-out": "^2.2.12",
+    "sharp": "^0.31.3",
+    "typeit-react": "^2.6.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

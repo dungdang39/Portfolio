@@ -34,6 +34,34 @@
   @apply text-blue-500 dark:text-white;
 }
 
+[data-scroll] {
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  transform: scale(0.93);
+  -webkit-transform: scale(0.93);
+  -moz-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  -o-transform: scale(0.93);
+  transition: all 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition: all 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: all 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -ms-transition: all 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: all 1.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+[data-scroll="in"] {
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+[data-scroll="out"] {
+  opacity: 0;
+}
+
 .mt-100 {
   margin-top: 100vh;
 }
@@ -49,6 +77,10 @@
   animation: titSlide 1s;
   -webkit-animation: titSlide 1s;
   animation-fill-mode: forwards;
+}
+
+.mainTitle span {
+  @apply sm:text-4xl mb-2 text-3xl font-bold text-gray-800 dark:text-gray-200;
 }
 
 @keyframes titSlide {
@@ -84,7 +116,7 @@
   animation: opacity 1s;
   -webkit-animation: opacity 1s;
   animation-fill-mode: forwards;
-  animation-delay: 2.6s;
+  animation-delay: 3s;
 }
 
 @keyframes imgSlide {
@@ -199,10 +231,6 @@ p {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   opacity: 0;
-  animation: opacity 1s;
-  -webkit-animation: opacity 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 3.2s;
 }
 
 .scroll .inner span {
@@ -210,9 +238,9 @@ p {
   display: inline-block;
   top: 0;
   left: 50%;
-  width: 30px;
-  height: 50px;
-  margin-left: -15px;
+  width: 24px;
+  height: 40px;
+  margin-left: -12px;
   border: 2px solid #fff;
   border-radius: 50px;
   box-sizing: border-box;
@@ -232,6 +260,14 @@ p {
   box-sizing: border-box;
 }
 
+.light .scroll .inner span {
+  border: 2px solid rgb(31, 41, 55);
+}
+
+.light .scroll .inner span::before {
+  background-color: rgb(31, 41, 55);
+}
+
 @keyframes sdb {
   0% {
     transform: translate(0, 0);
@@ -241,8 +277,12 @@ p {
     opacity: 1;
   }
   80% {
-    transform: translate(0, 20px);
+    transform: translate(0, 16px);
     opacity: 0;
+    -webkit-transform: translate(0, 16px);
+    -moz-transform: translate(0, 16px);
+    -ms-transform: translate(0, 16px);
+    -o-transform: translate(0, 16px);
   }
   100% {
     opacity: 0;
