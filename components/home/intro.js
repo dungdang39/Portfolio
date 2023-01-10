@@ -2,7 +2,7 @@ import Image from "next/legacy/image";
 
 export default function Intro() {
   return (
-    <div className="w-full z-20 bg-gray-200 dark:bg-zinc-800">
+    <div className="w-full z-20 bg-gray-200 dark:bg-zinc-800 rounded-t-xl">
       <div className="container px-5 py-14 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto">
           <h2 className="title">
@@ -44,7 +44,7 @@ export default function Intro() {
               <p className="leading-relaxed text-md mb-4 break-keep">
                 -{" "}
                 <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
-                  비즈니스 성장과 개인의 성장을 함께 이륙
+                  비즈니스 성장과 개인의 성장을 함께 이룩
                 </span>
                 하는 것이 저의 목표입니다. 무엇이든 빠르게 습득하고 구성원들에게
                 도움이 되고자 노력하겠습니다.
