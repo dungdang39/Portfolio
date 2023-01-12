@@ -49,6 +49,12 @@ export default function ProjectDetail({ preData }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="%PUBLIC_URL%/img/@home.png" />
+        <meta property="og:site_name" content="Hotae-포트폴리오 상세페이지" />
+        <meta
+          property="og:description"
+          content="포트폴리오 상세페이지 입니다."
+        />
       </Head>
       <Header />
       <section className="min-h-screen px-6 pt-40 xl:px-0 max-w-screen-lg mx-auto w-full items-center justify-center text-gray-600 body-font text-center">

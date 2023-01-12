@@ -33,6 +33,12 @@ export default function Home({ projects }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="%PUBLIC_URL%/img/@home.png" />
+        <meta property="og:site_name" content="Hotae-포트폴리오" />
+        <meta
+          property="og:description"
+          content="포트폴리오 메인페이지 입니다."
+        />
       </Head>
       {/* 랜딩 */}
       <section className="min-h-screen fixed top-0 w-full text-gray-400 body-font bg-slate-300 dark:bg-zinc-900">
