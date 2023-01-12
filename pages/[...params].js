@@ -53,7 +53,7 @@ export default function ProjectDetail({ preData }) {
         <meta property="og:site_name" content="Hotae-포트폴리오 상세페이지" />
         <meta
           property="og:description"
-          content="포트폴리오 상세페이지 입니다."
+          content="포트폴리오 상세페이지입니다."
         />
       </Head>
       <Header />
