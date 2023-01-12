@@ -17,11 +17,11 @@ export default function Home({ projects }) {
     });
   }, []);
 
-  useEffect(() => {
-    window.onbeforeunload = function pushRefresh() {
-      window.scrollTo(0, 0);
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.onbeforeunload = function pushRefresh() {
+  //     window.scrollTo(0, 0);
+  //   };
+  // }, []);
 
   return (
     <Layout>
