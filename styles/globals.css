@@ -108,7 +108,7 @@
   animation: imgSlide 1s;
   -webkit-animation: imgSlide 1s;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 3.6s;
 }
 
 .effectWrap {
@@ -116,7 +116,7 @@
   animation: opacity 1s;
   -webkit-animation: opacity 1s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 4.6s;
 }
 
 @keyframes imgSlide {
@@ -223,7 +223,7 @@ p {
 
 .scroll {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);

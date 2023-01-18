@@ -11,7 +11,7 @@ export default function Footer() {
           >
             <span className="text-xl font-semibold">HO TAE</span>
           </Link>
-          <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+          <p className="text-center text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
             © 2022 — Website created using Next.js
             <a
               href="https://github.com/dungdang39"
