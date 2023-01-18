@@ -13,7 +13,11 @@ export default function Hero() {
               waitUntilVisible: true,
             }}
             getBeforeInit={(instance) => {
-              instance.pause(1000).delete(22).pause(300).type("I'm Hotae.");
+              instance
+                .pause(1000)
+                .delete(22)
+                .pause(300)
+                .type("Hotae's Portfolio");
               return instance;
             }}
           />
