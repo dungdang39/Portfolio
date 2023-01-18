@@ -28,8 +28,24 @@ export default function Work() {
                     · 각종 페이지 UI/UX 디자인 개선
                   </li>
                   <li className="pb-1 text-gray-900 dark:text-white/50">
-                    · 외부 업체 웹개발: 서울신용보증재단, 부모강점, 소상공인
-                    자가진단 서비스
+                    · 외부 업체 웹개발: 서울신용보증재단,{" "}
+                    <a
+                      className="text-white hover:underline underline-offset-4"
+                      href="https://zaramstrength.com/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      부모강점
+                    </a>
+                    ,{" "}
+                    <a
+                      className="text-white hover:underline underline-offset-4"
+                      href="https://golmok.seoul.go.kr/selfCheckIndex.do"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      소상공인 자가진단 서비스
+                    </a>
                   </li>
                 </ul>
               </div>
