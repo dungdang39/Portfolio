@@ -116,7 +116,7 @@
   animation: opacity 1s;
   -webkit-animation: opacity 1s;
   animation-fill-mode: forwards;
-  animation-delay: 4.6s;
+  animation-delay: 4.2s;
 }
 
 @keyframes imgSlide {
