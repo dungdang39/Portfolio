@@ -2,7 +2,7 @@ import ProjectItem from "./project-item";
 
 export default function Projects({ projects }) {
   return (
-    <div className="w-full z-20 bg-gray-200 dark:bg-zinc-800">
+    <div className="w-full z-20 bg-gray-100 dark:bg-zinc-800">
       <div data-scroll className="container px-5 py-14 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto w-full">
           <h2 className="title">

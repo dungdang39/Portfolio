@@ -2,7 +2,7 @@ import Footer from "../footer";
 
 export default function Ending() {
   return (
-    <div className="w-full z-20 bg-gray-200 dark:bg-zinc-800">
+    <div className="w-full z-20 bg-gray-100 dark:bg-zinc-800">
       {/* <div className="container px-5 py-32 mx-auto">
         <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
           <svg

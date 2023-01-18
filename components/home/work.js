@@ -1,6 +1,6 @@
 export default function Work() {
   return (
-    <div className="w-full z-20 bg-gray-200 dark:bg-zinc-800">
+    <div className="w-full z-20 bg-gray-100 dark:bg-zinc-800">
       <div class="container px-5 py-14 mx-auto">
         <div class="flex flex-wrap w-full flex-col items-center">
           <div data-scroll className="lg:w-4/6 mx-auto w-full mb-28">
@@ -13,7 +13,7 @@ export default function Work() {
             <p className="mt-2 mb-6 font-medium text-lg">
               다양한 웹과 모바일 서비스를 개발하는 스타트업 웹 에이전시
             </p>
-            <div className="mb-8 p-6 bg-gray-100 dark:bg-zinc-700/50 rounded-lg shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black">
+            <div className="border border-gray-300 dark:border-zinc-800 mb-8 p-6 bg-gray-100 dark:bg-zinc-700/50 rounded-lg shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black">
               <div className="flex flex-col sm:flex-row">
                 <div className="pb-6 sm:w-1/3 text-left sm:pr-8 sm:pb-0">
                   <p>
@@ -30,7 +30,7 @@ export default function Work() {
                   <li className="pb-1 text-gray-900 dark:text-white/50">
                     · 외부 업체 웹개발: 서울신용보증재단,{" "}
                     <a
-                      className="text-white hover:underline underline-offset-4"
+                      className="text-blue dark:text-white text-blue hover:underline underline-offset-4"
                       href="https://zaramstrength.com/"
                       rel="noopener noreferrer"
                       target="_blank"
@@ -39,7 +39,7 @@ export default function Work() {
                     </a>
                     ,{" "}
                     <a
-                      className="text-white hover:underline underline-offset-4"
+                      className="text-blue dark:text-white hover:underline underline-offset-4"
                       href="https://golmok.seoul.go.kr/selfCheckIndex.do"
                       rel="noopener noreferrer"
                       target="_blank"
@@ -57,7 +57,7 @@ export default function Work() {
             </h2>
             <div className="mt-20 pb-10">
               <div class="w-full mb-6">
-                <div class="bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
+                <div class="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div class="js w-12 h-12 overflow-hidden inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <svg
                       width="32px"
@@ -82,7 +82,7 @@ export default function Work() {
                 </div>
               </div>
               <div class="w-full mb-6">
-                <div class="bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
+                <div class="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div class="react p-3 w-12 h-12 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
                     <svg
                       width="32px"
@@ -110,7 +110,7 @@ export default function Work() {
                 </div>
               </div>
               <div class="w-full">
-                <div class="bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
+                <div class="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div class="html_img w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <svg
                       width="32px"
