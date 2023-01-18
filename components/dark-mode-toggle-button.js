@@ -8,7 +8,7 @@ export default function DarkModeToggleButton() {
     if (currentTheme === null) {
       setTheme("dark");
     }
-  }, [theme]);
+  }, []);
   return (
     <>
       <button
