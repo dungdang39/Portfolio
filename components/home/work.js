@@ -1,8 +1,8 @@
 export default function Work() {
   return (
     <div className="w-full z-20 bg-gray-100 dark:bg-zinc-800">
-      <div class="container px-5 py-14 mx-auto">
-        <div class="flex flex-wrap w-full flex-col items-center">
+      <div className="container px-5 py-14 mx-auto">
+        <div className="flex flex-wrap w-full flex-col items-center">
           <div data-scroll className="lg:w-4/6 mx-auto w-full mb-28">
             <h2 className="title">
               <span>Work Experience.</span>
@@ -51,14 +51,14 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div data-scroll class="lg:w-4/6 w-full mx-auto">
+          <div data-scroll className="lg:w-4/6 w-full mx-auto">
             <h2 className="title">
               <span>Skill.</span>
             </h2>
             <div className="mt-20 pb-10">
-              <div class="w-full mb-6">
-                <div class="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
-                  <div class="js w-12 h-12 overflow-hidden inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-full mb-6">
+                <div className="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
+                  <div className="js w-12 h-12 overflow-hidden inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <svg
                       width="32px"
                       height="32px"
@@ -72,18 +72,18 @@ export default function Work() {
                       />
                     </svg>
                   </div>
-                  <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  <h2 className="text-lg text-gray-900 font-bold title-font mb-2">
                     Javscript
                   </h2>
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     · ES6문법에 익숙합니다.
                     <br />· webpack, parcel 등의 번들러 사용경험이 있습니다.
                   </p>
                 </div>
               </div>
-              <div class="w-full mb-6">
-                <div class="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
-                  <div class="react p-3 w-12 h-12 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
+              <div className="w-full mb-6">
+                <div className="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
+                  <div className="react p-3 w-12 h-12 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
                     <svg
                       width="32px"
                       height="32px"
@@ -92,26 +92,26 @@ export default function Work() {
                     >
                       <title>React Logo</title>
                       <circle cx="0" cy="0" r="2.05" fill="#ffffff" />
-                      <g stroke="#ffffff" stroke-width="1" fill="none">
+                      <g stroke="#ffffff" strokeWidth="1" fill="none">
                         <ellipse rx="11" ry="4.2" />
                         <ellipse rx="11" ry="4.2" transform="rotate(60)" />
                         <ellipse rx="11" ry="4.2" transform="rotate(120)" />
                       </g>
                     </svg>
                   </div>
-                  <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  <h2 className="text-lg text-gray-900 font-bold title-font mb-2">
                     React
                   </h2>
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     · React 18v의 최신버전을 문제없이 사용할 수 있습니다.
                     <br />· Reack Hook을 사용하여 기존 Class바탕의 중복된 코드를
                     작성할 필요없이 React의 여러 기능을 사용할 수 있습니다.
                   </p>
                 </div>
               </div>
-              <div class="w-full">
-                <div class="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
-                  <div class="html_img w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <div className="w-full">
+                <div className="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
+                  <div className="html_img w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <svg
                       width="32px"
                       height="32px"
@@ -145,10 +145,10 @@ export default function Work() {
                       />
                     </svg>
                   </div>
-                  <h2 class="text-lg text-gray-900 font-bold title-font mb-2">
+                  <h2 className="text-lg text-gray-900 font-bold title-font mb-2">
                     HTML/CSS
                   </h2>
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     · 웹표준과 웹접근성을 지키는 데에 늘 노력하고 있습니다.
                     <br />
                     · 크로스브라우징에 동등성을 부여하기위해 늘 노력하고
