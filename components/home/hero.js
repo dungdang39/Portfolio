@@ -8,12 +8,12 @@ export default function Hero() {
         <div className="mainTitle">
           <TypeIt
             options={{
-              strings: ["Still waters run deep "],
+              strings: ["Still waters run deep. "],
               speed: 20,
               waitUntilVisible: true,
             }}
             getBeforeInit={(instance) => {
-              instance.pause(1000).delete(22).pause(300).type("I'm Hotae.");
+              instance.pause(1000).delete(23).pause(300).type("I'm Hotae.");
               return instance;
             }}
           />
