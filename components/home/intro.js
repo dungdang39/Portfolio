@@ -41,17 +41,13 @@ export default function Intro() {
                 하였고 필요에 따라 UX/UI 디자인을 겸하였습니다.
               </p>
               <p className="leading-relaxed text-md mb-4 break-keep">
-                -{" "}
-                <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
-                  비즈니스 성장과 개인의 성장을 함께 이룩
-                </span>
-                하는 것이 저의 목표입니다. 무엇이든 빠르게 습득하고 구성원들에게
-                도움이 되고자 노력하겠습니다.
+                - 무엇이든 빠르게 습득하고 구성원들에게 도움이 되고자
+                노력하겠습니다.
               </p>
-              {/* <p className="leading-relaxed text-md mb-4 break-keep">
+              <p className="leading-relaxed text-md mb-4 break-keep">
                 - 다양한 문제들을 직접 겪어보고 해결해 나가면서 많은 경험과
                 기록을 통해 성장해 나가겠습니다.
-              </p> */}
+              </p>
               <p className="leading-relaxed text-md break-keep mb-8">
                 - 백엔드에도 관심을 갖고있습니다. 차근차근 발을 넓혀가며{" "}
                 <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
