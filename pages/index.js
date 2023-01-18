@@ -58,8 +58,8 @@ export default function Home({ projects }) {
       </section>
       <section className="flex flex-col items-center justify-center text-gray-600 body-font mt-100">
         <Intro />
-        <Projects projects={projects} />
         <Work />
+        <Projects projects={projects} />
         <Ending />
       </section>
     </Layout>
