@@ -103,7 +103,7 @@ export default function Work() {
                     React
                   </h2>
                   <p className="leading-relaxed text-base">
-                    · React 18v의 최신버전을 문제없이 사용할 수 있습니다.
+                    · React 16v의 최신버전을 문제없이 사용할 수 있습니다.
                     <br />· Reack Hook을 사용하여 기존 Class바탕의 중복된 코드를
                     작성할 필요없이 React의 여러 기능을 사용할 수 있습니다.
                   </p>
