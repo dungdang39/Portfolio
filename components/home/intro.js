@@ -18,7 +18,7 @@ export default function Intro() {
                   alt="profile image"
                   width={90}
                   height={90}
-                  src="/img/profile.png"
+                  src="/img/profile.jpg"
                   layout="fixed"
                   objectFit="cover"
                 />
