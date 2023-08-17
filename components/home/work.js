@@ -50,6 +50,29 @@ export default function Work() {
                 </ul>
               </div>
             </div>
+            <h3 className="mt-20 font-medium text-xl underline underline-offset-4">
+              삼성전자 파트너사
+            </h3>
+            <p className="mt-2 mb-6 font-medium text-lg">
+              마케팅 영업혁신 그룹 내 근무
+            </p>
+            <div className="border border-gray-300 dark:border-zinc-800 mb-8 p-6 bg-gray-100 dark:bg-zinc-700/50 rounded-lg shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black">
+              <div className="flex flex-col sm:flex-row">
+                <div className="pb-6 sm:w-1/3 text-left sm:pr-8 sm:pb-0">
+                  <p>
+                    <span className="text-md font-bold text-gray-900 dark:text-white">
+                      Web Publisher
+                    </span>
+                  </p>
+                  <p className="mt-1 text-sm">2023-02-08 ~ 2023-08-09</p>
+                </div>
+                <ul className="text-left pt-6 sm:pt-0 sm:w-2/3 sm:pl-8 sm:border-l border-gray-300 sm:border-t-0 border-t sm:mt-0 sm:text-left dark:border-gray-600">
+                  <li className="pb-1 text-gray-900 dark:text-white/50">
+                    · 판촉디자인 화면 구현 및 기능개발
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div data-scroll className="lg:w-4/6 w-full mx-auto">
             <h2 className="title">
