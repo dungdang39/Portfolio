@@ -36,30 +36,13 @@ export default function Intro() {
               <p className="leading-relaxed text-md mb-4 break-keep">
                 -{" "}
                 <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
-                  1년동안 웹에이전시 스타트업에서 웹 서비스를 개발
+                  2년동안 웹에이전시 스타트업에서 UX/UI 디자인과 웹,앱 퍼블리싱
                 </span>
-                하였고 필요에 따라 UX/UI 디자인을 겸하였습니다.
-              </p>
-              <p className="leading-relaxed text-md mb-4 break-keep">
-                -{" "}
-                <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
-                  "잔잔한 물이 깊게 흐른다"
-                </span>{" "}
-                제 마음속에 품고있는 문장입니다.
-                <br />
-                기본기에 충실하고 스스로의 방향성과 페이스로 앞으로
-                나아가겠습니다.
+                업무를 수행하였습니다.
               </p>
               {/* <p className="leading-relaxed text-md mb-4 break-keep">
                 - 여러 경험을 토대로 구성원들에게 도움이 되고자 노력하겠습니다.
               </p> */}
-              <p className="leading-relaxed text-md break-keep mb-8">
-                - 백엔드에도 관심을 갖고있습니다. 차근차근 발을 넓혀가며{" "}
-                <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
-                  오늘보다 내일 더 잘하는 개발자
-                </span>
-                가 되겠습니다.
-              </p>
               <p className="flex flex-wrap align-center text-base sm:justify-start justify-center">
                 <Image
                   className="dark:invert"

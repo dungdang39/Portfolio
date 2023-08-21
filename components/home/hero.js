@@ -17,7 +17,7 @@ export default function Hero() {
                 .pause(1000)
                 .delete(22)
                 .pause(300)
-                .type("Hotae's Portfolio");
+                .type("안녕하세요 퍼블리셔 신태호입니다.");
               return instance;
             }}
           />

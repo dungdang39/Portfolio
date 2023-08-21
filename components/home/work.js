@@ -10,9 +10,7 @@ export default function Work() {
             <h3 className="mt-20 font-medium text-xl underline underline-offset-4">
               비엔시스템
             </h3>
-            <p className="mt-2 mb-6 font-medium text-lg">
-              다양한 웹과 모바일 서비스를 개발하는 스타트업 웹 에이전시
-            </p>
+            <p className="mt-2 mb-6 font-medium text-lg">웹 에이전시</p>
             <div className="border border-gray-300 dark:border-zinc-800 mb-8 p-6 bg-gray-100 dark:bg-zinc-700/50 rounded-lg shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black">
               <div className="flex flex-col sm:flex-row">
                 <div className="pb-6 sm:w-1/3 text-left sm:pr-8 sm:pb-0">
@@ -53,9 +51,7 @@ export default function Work() {
             <h3 className="mt-20 font-medium text-xl underline underline-offset-4">
               삼성전자 파트너사
             </h3>
-            <p className="mt-2 mb-6 font-medium text-lg">
-              마케팅 영업혁신 그룹 내 근무
-            </p>
+            <p className="mt-2 mb-6 font-medium text-lg">CE 영업혁신 그룹</p>
             <div className="border border-gray-300 dark:border-zinc-800 mb-8 p-6 bg-gray-100 dark:bg-zinc-700/50 rounded-lg shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black">
               <div className="flex flex-col sm:flex-row">
                 <div className="pb-6 sm:w-1/3 text-left sm:pr-8 sm:pb-0">
@@ -78,7 +74,7 @@ export default function Work() {
             <h2 className="title">
               <span>Skill.</span>
             </h2>
-            <div className="mt-20 pb-10">
+            <div className="mt-20 pb-10 grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 pb-10 gap-8">
               <div className="w-full mb-6">
                 <div className="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div className="js w-12 h-12 overflow-hidden inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
