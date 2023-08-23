@@ -17,7 +17,9 @@ export default function Hero() {
                 .pause(1000)
                 .delete(22)
                 .pause(300)
-                .type("사용자경험에 관심이 많은 퍼블리셔 신태호입니다 :)");
+                .type(
+                  "안녕하세요 사용자경험에 관심이 많은 퍼블리셔 신태호입니다 :)"
+                );
               return instance;
             }}
           />
