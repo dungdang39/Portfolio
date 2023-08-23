@@ -131,6 +131,9 @@ export default function ProjectDetail({ preData }) {
           <p className="break-all my-2 w-full m-auto p-10 mb-10 border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50">
             작업기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
           </p>
+          <div className="w-full mx-auto h-full relative">
+            <img src={imgSrc} alt="설명" />
+          </div>
         </div>
       </section>
     </Layout>

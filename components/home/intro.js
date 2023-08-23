@@ -38,11 +38,28 @@ export default function Intro() {
                 <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
                   2년동안 웹에이전시 스타트업에서 UX/UI 디자인과 웹,앱 퍼블리싱
                 </span>
-                업무를 수행하였습니다.
+                업무를 수행하였고 <br />
+                <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
+                  삼성전자 파트너사에서 삼성닷컴 페이지 내 프로모션 사이트를
+                  6개월간 구축 및 유지보수
+                </span>
+                한 경험이 있습니다.
               </p>
-              {/* <p className="leading-relaxed text-md mb-4 break-keep">
-                - 여러 경험을 토대로 구성원들에게 도움이 되고자 노력하겠습니다.
-              </p> */}
+              <p className="leading-relaxed text-md mb-4 break-keep">
+                - 웹 개발뿐 아니라 사용자 경험에도 관심이 많아 코드상의 개선점
+                외에 실질적으로 사용자의 클릭유도 및 만족도를 이끌어내기 위한
+                방법을 꾸준히 공부해나가고 있습니다.
+              </p>
+              <p className="leading-relaxed text-md mb-4 break-keep">
+                - 무엇이든 빠르게 배우고 어떤곳이든 빠르게 적응하는 점을 저의
+                장점이라고 생각합니다.
+                <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
+                  "잔잔한 물이 깊게 흐른다"
+                </span>{" "}
+                라는 말처럼
+                <br />
+                꾸준하고 우직한 성장을 통해 회사를 뒷받침할 인재가 되겠습니다!
+              </p>
               <p className="flex flex-wrap align-center text-base sm:justify-start justify-center">
                 <Image
                   className="dark:invert"

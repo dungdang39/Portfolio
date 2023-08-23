@@ -49,7 +49,7 @@ export default function Work() {
               </div>
             </div>
             <h3 className="mt-20 font-medium text-xl underline underline-offset-4">
-              삼성전자 파트너사
+              삼성전자 (파트너사 소속)
             </h3>
             <p className="mt-2 mb-6 font-medium text-lg">CE 영업혁신 그룹</p>
             <div className="border border-gray-300 dark:border-zinc-800 mb-8 p-6 bg-gray-100 dark:bg-zinc-700/50 rounded-lg shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black">
@@ -75,7 +75,7 @@ export default function Work() {
               <span>Skill.</span>
             </h2>
             <div className="mt-20 pb-10 grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 pb-10 gap-8">
-              <div className="w-full mb-6">
+              <div className="w-full">
                 <div className="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div className="js w-12 h-12 overflow-hidden inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <svg
@@ -100,7 +100,7 @@ export default function Work() {
                   </p>
                 </div>
               </div>
-              <div className="w-full mb-6">
+              <div className="w-full">
                 <div className="border border-gray-300 dark:border-zinc-800 bg-gray-100 dark:bg-zinc-700/50 shadow-md shadow-zinc-300 dark:border-zinc-800 dark:shadow-black p-6 rounded-lg h-full">
                   <div className="react p-3 w-12 h-12 inline-flex items-center justify-center rounded-full text-indigo-500 mb-4">
                     <svg
