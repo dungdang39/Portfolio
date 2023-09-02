@@ -29,7 +29,7 @@ export default function Home({ projects }) {
         <title>신태호 포트폴리오</title>
         <meta
           name="description"
-          content="반갑습니다. 프론트엔드 개발자 신태호입니다."
+          content="반갑습니다. 웹 개발자 신태호입니다."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
