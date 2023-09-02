@@ -8,7 +8,7 @@ export default function ProjectItem({ data }) {
     youtube: data.properties.Youtube.url,
     description: data.properties.Description.rich_text[0].plain_text,
     people: data.properties.People.rich_text[0].plain_text,
-    imgSrc: data.cover.file.url || data.cover.external.url,
+    imgSrc: data.cover.external.url,
     tags: data.properties.Tag.multi_select,
     start: data.properties.WorkPeriod.date.start,
     end: data.properties.WorkPeriod.date.end,
